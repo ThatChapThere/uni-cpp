@@ -69,8 +69,6 @@
 
 using namespace std;
 
-/* Note to self: add more notes based on slides */
-
 /* this is the main function which is called on program execution */
 int main()
 {
