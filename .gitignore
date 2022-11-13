@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Ctags files
+**/tags
+
+# Makefiles
+**/makefile
