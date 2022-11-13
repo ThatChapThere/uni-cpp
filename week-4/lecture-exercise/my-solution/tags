@@ -1,0 +1,20 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/tim/repos/uni-cpp/week-4/lecture-exercise/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/p5.9.20220828.0/
+Log	main.cpp	/^class Log$/;"	c	file:
+System	main.cpp	/^class System$/;"	c	file:
+accesscode	main.cpp	/^	string accesscode = "091251";$/;"	m	class:System	typeref:typename:string	file:
+getRegistryStatus	main.cpp	/^	int getRegistryStatus()$/;"	f	class:Log	typeref:typename:int	file:
+main	main.cpp	/^int main()$/;"	f	typeref:typename:int
+registerFailure	main.cpp	/^	void registerFailure()$/;"	f	class:Log	typeref:typename:void	file:
+registerSuccessfully	main.cpp	/^	void registerSuccessfully()$/;"	f	class:Log	typeref:typename:void	file:
+testCode	main.cpp	/^	bool testCode(string attempt)$/;"	f	class:System	typeref:typename:bool	file:
+value	main.cpp	/^	int value = 0;$/;"	m	class:Log	typeref:typename:int	file:
