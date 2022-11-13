@@ -36,3 +36,8 @@
 
 # Makefiles
 **/makefile
+
+# Extensionless executables
+*
+!*/
+!*.*
