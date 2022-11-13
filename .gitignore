@@ -1,3 +1,8 @@
+# Extensionless executables
+*
+!*/
+!*.*
+
 # Prerequisites
 *.d
 
@@ -36,8 +41,3 @@
 
 # Makefiles
 **/makefile
-
-# Extensionless executables
-*
-!*/
-!*.*
