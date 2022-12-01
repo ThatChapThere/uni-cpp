@@ -1,0 +1,5 @@
+the task which asks you to get a certain output
+from a class system doesn't want you to 
+call the parent constructors again
+
+it wants you to make a 3 tier system

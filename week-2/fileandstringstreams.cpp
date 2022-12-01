@@ -21,13 +21,13 @@ int main ()
 	fstream filestream(filepath); filestream.close();
 	ifstream input_filestream(filepath); input_filestream.close();
 	ofstream output_filestream(filepath); output_filestream.close();
-	
+
 	// there are a few functions that you can apply to 
 	// filestreams
 	filestream.open(filepath);
 	filestream.close();
 	cout << "is the filestream open? " << filestream.is_open() << endl;
-	
+
 	// some of them are used for validating files
 	// for example making sure that they contain a valid eof
 	filestream.open(filepath);
