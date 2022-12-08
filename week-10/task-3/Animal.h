@@ -4,7 +4,9 @@
 class Animal
 {
 public:
-	//void speak(void) = 0;
+	// was previously
+	// -- void speak(void) = 0;
+	// but it has to be virtual for the program to work
 	virtual void speak(void) = 0;
 };
 
