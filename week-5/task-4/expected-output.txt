@@ -1,0 +1,7 @@
+class instance created
+class instance created
+ChildClass instance created
+Hello!
+ChildClass instance deleted
+class instance destroyed
+class instance destroyed
