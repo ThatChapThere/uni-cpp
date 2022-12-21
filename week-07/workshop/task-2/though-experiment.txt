@@ -1,0 +1,15 @@
+Common methods:
+	whoAmI (although this one needs a different implentation per class)
+	work
+
+Common properties:
+	name
+	workUnit
+
+Inheritance heirachy:
+	the logical choice here is of course to make Robot a parent class
+	and the other two classes child classes that inherit from it
+
+	         Robot
+	        /     \
+	SocialRobot IndustrialRobot

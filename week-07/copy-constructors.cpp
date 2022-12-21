@@ -64,6 +64,9 @@ int main()
 						   // is considered an original since it was
 						   // already declared and thus use the assignment
 						   // operator and not the copy constructor
+						   // this is because the copy construcor is still a 
+						   // constructor and therefore can only be called
+						   // when intialising a new object
 
 	printOriginality(c1);
 	printOriginality(c2);

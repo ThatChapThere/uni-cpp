@@ -56,7 +56,7 @@ void add_word(vector<WordFreqPair> &wordList, string word, int &wordCount)
 int main()
 {
 	char current_line[1024];
-	string filename = "workshop-2/input.txt";
+	string filename = "input.txt";
 	ifstream file(filename);
 
 	string current_word;
@@ -100,6 +100,10 @@ int main()
 	cout << "Word frequencies: " << endl;
 
 	for(auto word :wordList)
-		cout << word.word << "\t" << word.Count <<
-			"  " << (double) word.Count / numberOfWords<< endl;
+	{
+		cout << word.word << "\t"
+		     << word.Count << "\t"
+		     << 100.0f * (double) word.Count / numberOfWords << "\t"
+		     << "%" << endl;
+	}
 }
