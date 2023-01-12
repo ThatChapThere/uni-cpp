@@ -1,0 +1,8 @@
+do includes like:
+	""
+	
+	<>
+
+put variable names in comments in []
+put values in <>
+put types in {}

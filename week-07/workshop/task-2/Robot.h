@@ -12,6 +12,7 @@ protected:
 	std::string name;
 	int workUnit;
 	std::vector<int> *_history;
+	std::vector<int> *getHistory();
 public:
 	// you can assign properties with parentheses
 	// this is only allowed as part of a constructor definition
@@ -22,6 +23,7 @@ public:
 	void whoAmI();
 	void work();
 	void printWork();
+	//int *test;
 };
 
 #endif

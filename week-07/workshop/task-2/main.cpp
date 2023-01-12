@@ -26,7 +26,14 @@ int main()
 	// when we first ran the program this lead to a segfault
 	// because the work vector gets deleted when r1 goes out of scope
 	// in the robot destructor
+	// r2 is a copy of r1, since everything is a value type in C++
+	// this means all of the data is kept as part of r2
+	// including the pointer to the work vector
+	// which just happens to not point to anything anymore
+	// the desired behaviour is for the work to be reset to an empty vector
+	// rather than to cause a segfault
 	r2.printWork();
+	//cout << *(r2.test) << endl;
 	cout << "end of example code..." << endl;
 	return 0;
 }
